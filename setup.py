@@ -33,6 +33,7 @@ setup(
     ],
     packages=find_packages("src", exclude=("exampleproj",)),
     package_dir={"": "src"},
+    install_requires=["setuptools"],
     extras_require={
         "scripts": [
             "click>=6.0", "twisted>=16.4.0"
